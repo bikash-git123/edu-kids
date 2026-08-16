@@ -45,7 +45,7 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
             <a href="{{ url('/') }}" class="navbar-brand">
-                <h1 class="m-0 text-primary"><i class="fa fa-book-reader me-3"></i>SchoolAdmin</h1>
+                <h1 class="m-0 text-primary"><i class="fa fa-book-reader me-3"></i>Edu Kids</h1>
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -59,9 +59,7 @@
                     <a href="#gallery" class="nav-item nav-link">Event Gallery</a>
                     <a href="#contact" class="nav-item nav-link">Contact</a>
                 </div>
-                <a href="{{ route('login') }}" class="btn btn-primary rounded-pill px-4 d-none d-lg-block">
-                    <i class="fa fa-user-shield me-2"></i>Admin Panel
-                </a>
+                <a href="#contact" class="btn btn-primary rounded-pill px-4 d-none d-lg-block">Join Us<i class="fa fa-arrow-right ms-2"></i></a>
             </div>
         </nav>
         <!-- Navbar End -->
@@ -79,7 +77,7 @@
                                     <h1 class="display-2 text-white animated slideInDown mb-4">Empowering Minds, Shaping Brighter Futures</h1>
                                     <p class="fs-5 fw-medium text-white mb-4 pb-2">Welcome to School &amp; College Academy. Providing world-class education, innovative science labs, and comprehensive student development programs.</p>
                                     <a href="#classes" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Explore Classes</a>
-                                    <a href="{{ route('login') }}" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Admin Portal</a>
+                                    <a href="#about" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -181,7 +179,7 @@
                         <p class="mb-4">With experienced faculty, personalized mentorship, and state-of-the-art campus facilities, we prepare students to excel in competitive environments and become responsible global leaders.</p>
                         <div class="row g-4 align-items-center">
                             <div class="col-sm-6">
-                                <a class="btn btn-primary rounded-pill py-3 px-5" href="{{ route('login') }}">Access Admin Portal</a>
+                                <a class="btn btn-primary rounded-pill py-3 px-5" href="#classes">Explore Classes</a>
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center">
@@ -356,14 +354,14 @@
                         <a class="btn btn-link text-white-50" href="#classes">Courses &amp; Classes</a>
                         <a class="btn btn-link text-white-50" href="#teachers">Faculty Directory</a>
                         <a class="btn btn-link text-white-50" href="#gallery">Event Gallery</a>
-                        <a class="btn btn-link text-white-50" href="{{ route('login') }}">Admin Login Portal</a>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <h3 class="text-white mb-4">Admin Quick Login</h3>
-                        <p>Access your administrative controls for Students, Faculty, Courses, and Notices.</p>
-                        <a href="{{ route('login') }}" class="btn btn-primary rounded-pill py-2 px-4">
-                            <i class="fas fa-lock me-2"></i>Go to Admin Login
-                        </a>
+                        <h3 class="text-white mb-4">Newsletter</h3>
+                        <p>Subscribe to our newsletter to receive campus news and event updates.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5 text-white border-white" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
                     </div>
                 </div>
             </div>
