@@ -12,9 +12,13 @@ use App\Http\Controllers\NoticeController;
 Route::get('/admin-login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/admin-login', [AuthController::class, 'login']);
 
-// Root Redirect
+// Public Kider Landing Page
 Route::get('/', function () {
-    return redirect()->route('admin.dashboard');
+    $courses = \App\Models\Course::with('teacher')->where('status', 'active')->take(6)->get();
+    $teachers = \App\Models\Teacher::where('status', 'active')->take(6)->get();
+    $galleries = \App\Models\Gallery::with('images')->where('status', 'active')->latest()->take(3)->get();
+
+    return view('welcome', compact('courses', 'teachers', 'galleries'));
 });
 
 // Protected Admin Routes
