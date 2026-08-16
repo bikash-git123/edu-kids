@@ -104,15 +104,51 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto">
                     <a href="{{ url('/') }}" class="nav-item nav-link active">Home</a>
-                    <a href="#about" class="nav-item nav-link">About &amp; Vision</a>
-                    <a href="#founder" class="nav-item nav-link">Founder Message</a>
-                    <a href="#branches" class="nav-item nav-link">7 Branches</a>
-                    <a href="#programs" class="nav-item nav-link">Programs</a>
-                    <a href="#facilities" class="nav-item nav-link">Facilities</a>
-                    <a href="#admissions" class="nav-item nav-link">Admissions</a>
-                    <a href="#gallery" class="nav-item nav-link">Gallery</a>
-                    <a href="#achievements" class="nav-item nav-link">Achievements</a>
-                    <a href="#teachers" class="nav-item nav-link">Faculty</a>
+
+                    <!-- About Us Dropdown -->
+                    <div class="nav-item dropdown">
+                        <a href="#about" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                        <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
+                            <a href="#about" class="dropdown-item"><i class="fas fa-university text-primary me-2"></i>School &amp; Vision</a>
+                            <a href="#founder" class="dropdown-item"><i class="fas fa-user-tie text-info me-2"></i>Founder's Message</a>
+                            <a href="#achievements" class="dropdown-item"><i class="fas fa-trophy text-warning me-2"></i>Achievements &amp; Awards</a>
+                        </div>
+                    </div>
+
+                    <!-- 7 Branches Link -->
+                    <a href="#branches" class="nav-item nav-link"><i class="fas fa-building text-primary me-1"></i>7 Campuses</a>
+
+                    <!-- Academics Dropdown -->
+                    <div class="nav-item dropdown">
+                        <a href="#programs" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Academics</a>
+                        <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
+                            <a href="#programs" class="dropdown-item"><i class="fas fa-graduation-cap text-success me-2"></i>Programs &amp; Age Groups</a>
+                            <a href="#teachers" class="dropdown-item"><i class="fas fa-chalkboard-teacher text-primary me-2"></i>Branch Faculty Directory</a>
+                            <a href="#facilities" class="dropdown-item"><i class="fas fa-desktop text-warning me-2"></i>Campus Facilities</a>
+                        </div>
+                    </div>
+
+                    <!-- Admissions Dropdown -->
+                    <div class="nav-item dropdown">
+                        <a href="#admissions" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Admissions</a>
+                        <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
+                            <a href="#admissions" class="dropdown-item"><i class="fas fa-route text-info me-2"></i>4-Step Admission Guide</a>
+                            <a href="#admissions" class="dropdown-item"><i class="fas fa-file-alt text-success me-2"></i>Document Checklist</a>
+                            <a href="#admissions" class="dropdown-item"><i class="fas fa-paper-plane text-primary me-2"></i>Online Enquiry Form</a>
+                            <a href="#prospectus" class="dropdown-item"><i class="fas fa-file-pdf text-danger me-2"></i>Download Prospectus 2026</a>
+                        </div>
+                    </div>
+
+                    <!-- Campus Life Dropdown -->
+                    <div class="nav-item dropdown">
+                        <a href="#gallery" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Campus Life</a>
+                        <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
+                            <a href="#gallery" class="dropdown-item"><i class="fas fa-camera text-primary me-2"></i>Event Photo Gallery</a>
+                            <a href="#achievements" class="dropdown-item"><i class="fas fa-star text-warning me-2"></i>Parent Testimonials</a>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="nav-item nav-link">Contact Us</a>
                 </div>
                 <a href="#admissions" class="btn btn-primary rounded-pill px-4 d-none d-lg-block">
                     Apply Now <i class="fa fa-arrow-right ms-2"></i>
