@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Edu Kids - Premier School Network (7 Branches)</title>
+    <title>Edu Kids - Premier Pre-School, High School &amp; Senior College Network (7 Campuses)</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Edu Kids, School, Kindergarten, Primary School, 7 Branches, Admissions 2026, Prospectus" name="keywords">
-    <meta content="Edu Kids - Premier Educational Institution with 7 Branches, Holistic Learning, World-Class Facilities, and STEM Education." name="description">
+    <meta content="Edu Kids, Pre-School, Primary School, High School, Senior College, 7 Branches, Admissions 2026, STEAM Education" name="keywords">
+    <meta content="Edu Kids - Premier Educational Network offering complete learning from Pre-School, Primary, High School to Senior College Academy across 7 modern campuses." name="description">
 
     <!-- Favicon -->
     <link href="{{ asset('kider/img/favicon.ico') }}" rel="icon">
@@ -166,9 +166,9 @@
                         <div class="container-fluid px-4 px-lg-5">
                             <div class="row justify-content-start">
                                 <div class="col-10 col-lg-8">
-                                    <span class="badge bg-primary px-3 py-2 fs-6 mb-3 rounded-pill text-uppercase">Admissions Open 2026 - 2027</span>
+                                     <span class="badge bg-primary px-3 py-2 fs-6 mb-3 rounded-pill text-uppercase">Admissions Open 2026 - 2027</span>
                                     <h1 class="display-2 text-white animated slideInDown mb-4">Inspiring Curiosity, Building Character Across 7 Campuses</h1>
-                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Empowering 5,000+ students across our 7 state-of-the-art school branches with STEM learning, digital smart classrooms, and personalized care.</p>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Empowering 5,000+ students across our 7 state-of-the-art campuses from Pre-School &amp; Primary to High School and Senior College Academy.</p>
                                     <a href="#programs" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">View Programs</a>
                                     <a href="#branches" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Find Nearest Branch</a>
                                 </div>
@@ -182,9 +182,9 @@
                         <div class="container-fluid px-4 px-lg-5">
                             <div class="row justify-content-start">
                                 <div class="col-10 col-lg-8">
-                                    <span class="badge bg-warning text-dark px-3 py-2 fs-6 mb-3 rounded-pill text-uppercase">Holistic K-10 Excellence</span>
+                                    <span class="badge bg-warning text-dark px-3 py-2 fs-6 mb-3 rounded-pill text-uppercase">Pre-School to Senior College Education</span>
                                     <h1 class="display-2 text-white animated slideInDown mb-4">Where Learning Meets Creativity &amp; Innovation</h1>
-                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">From Early Years Playgroup to Secondary High School, Edu Kids nurtures future leaders with compassion and academic rigor.</p>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">From Early Years Playgroup &amp; Primary School to High School and Senior College Streams, Edu Kids nurtures future leaders with compassion and academic rigor.</p>
                                     <a href="#prospectus" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Download Brochure</a>
                                     <a href="#admissions" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Admission Guide</a>
                                 </div>
@@ -561,6 +561,54 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="classes-item h-100">
+                            <div class="bg-white rounded-circle w-75 mx-auto p-3 shadow-sm">
+                                <img class="img-fluid rounded-circle" src="{{ asset('kider/img/classes-1.jpg') }}" alt="Senior Secondary">
+                            </div>
+                            <div class="bg-white rounded p-4 pt-5 mt-n5 shadow-sm border">
+                                <span class="badge bg-dark text-white me-2">Higher Secondary</span>
+                                <a class="d-block h3 mt-2 mb-2 text-dark text-decoration-none" href="#">Junior College (Grade 11 &amp; 12)</a>
+                                <p class="text-muted fs-7 mb-3">Science (PCM/PCB), Commerce, Computer Science &amp; Arts streams with competitive prep.</p>
+                                
+                                <div class="row g-2 pt-2 border-top">
+                                    <div class="col-6">
+                                        <small class="text-primary fw-bold d-block"><i class="fas fa-user me-1"></i> Age Criteria:</small>
+                                        <span class="fs-7 text-dark fw-semibold">16 - 18 Years</span>
+                                    </div>
+                                    <div class="col-6">
+                                        <small class="text-success fw-bold d-block"><i class="fas fa-clock me-1"></i> Class Timing:</small>
+                                        <span class="fs-7 text-dark fw-semibold">8:00 AM - 3:30 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="classes-item h-100">
+                            <div class="bg-white rounded-circle w-75 mx-auto p-3 shadow-sm">
+                                <img class="img-fluid rounded-circle" src="{{ asset('kider/img/classes-2.jpg') }}" alt="Senior College Academy">
+                            </div>
+                            <div class="bg-white rounded p-4 pt-5 mt-n5 shadow-sm border">
+                                <span class="badge bg-primary me-2">College Academy</span>
+                                <a class="d-block h3 mt-2 mb-2 text-dark text-decoration-none" href="#">Senior College Academy</a>
+                                <p class="text-muted fs-7 mb-3">Undergraduate degrees in Computer Science, Business Admin, Science &amp; Arts.</p>
+                                
+                                <div class="row g-2 pt-2 border-top">
+                                    <div class="col-6">
+                                        <small class="text-primary fw-bold d-block"><i class="fas fa-user-graduate me-1"></i> Age Criteria:</small>
+                                        <span class="fs-7 text-dark fw-semibold">18+ Years</span>
+                                    </div>
+                                    <div class="col-6">
+                                        <small class="text-success fw-bold d-block"><i class="fas fa-clock me-1"></i> Class Timing:</small>
+                                        <span class="fs-7 text-dark fw-semibold">8:30 AM - 4:00 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -719,6 +767,8 @@
                                             <option>Primary (Grade 1 - 5)</option>
                                             <option>Middle School (Grade 6 - 8)</option>
                                             <option>High School (Grade 9 &amp; 10)</option>
+                                            <option>Junior College (Grade 11 &amp; 12 Science/Commerce/Arts)</option>
+                                            <option>Senior College Academy (Degree Programs)</option>
                                         </select>
                                     </div>
                                     <div class="col-md-12">
