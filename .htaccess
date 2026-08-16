@@ -5,7 +5,11 @@
 
     RewriteEngine On
 
-    # Handle Front Controller...
+    # Block direct URL access to /public folder in address bar (Return 404 Not Found)
+    RewriteCond %{THE_REQUEST} \s/public[/\s] [NC]
+    RewriteRule ^public(/.*)?$ - [L,R=404]
+
+    # Redirect all front controller requests to public/ folder internally
     RewriteCond %{REQUEST_URI} !^/public/
     RewriteRule ^(.*)$ public/$1 [L]
 </IfModule>
